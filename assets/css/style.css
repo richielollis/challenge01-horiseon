@@ -1,12 +1,24 @@
+/* all elements */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* all p tags */
+
+p {
+    font-size: 16px;
+}
+
+/* body background for entire page */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* header/nav */
 
 header {
     padding: 20px;
@@ -20,7 +32,7 @@ header h1 {
     font-size: 48px;
 }
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -46,9 +58,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-p {
-    font-size: 16px;
-}
+/* hero */
 
 .hero img {
     height: 800px;
@@ -57,6 +67,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* our services */
 
 .our-services {
     width: 75%;
@@ -92,6 +104,8 @@ p {
     margin-left: 25px;
 }
 
+/* benefits */
+
 .our-benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,6 +132,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* footer */
 
 footer {
     padding: 30px;
